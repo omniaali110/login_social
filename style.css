@@ -1,5 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
 
+:root {
+    --color-bg: #141414ff;
+    --color-container-bg: #1f1f1fff;
+    --color-accent: #333333ff;
+    --color-text-primary: #ffffff;
+    --color-text-secondary: #c5f82aff;
+}
+
+
 body{
     background-color: #141414ff;
     font-family: 'Inter', sans-serif;
@@ -22,4 +31,42 @@ p {
     font-size: 14px;
     font-weight: 400;
     color: white;
+}
+.main-container{
+    width: 400px;
+    background-color: #1f1f1fff;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 15px;
+    text-align: center;
+    padding-top: 30px;
+}
+
+.profile-picture{
+    width: 100px;
+    height: 100px;
+    border-radius: 150px 50px;
+}
+
+.social-links{
+    margin-bottom: 30px;
+}
+
+button{
+    width: 250px;
+    height: 50px;
+    background-color: #333333ff;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #c5f82aff;
+    color: #141414ff;
+    font-weight: 600;
 }
